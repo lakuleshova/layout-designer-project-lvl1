@@ -10,8 +10,6 @@
 
 body {
   margin: 0;
-
-  width: 1440px;
   
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -38,15 +36,10 @@ h3 {
 
 h5 {
   padding-left: 10px;
-  margin: 100px 0 6px 0;
+  margin: 100px 0 0 0;
 
   font-size: 14px;
   font-weight: 700;
-}
-
-p {
-  padding-top: 14px;
-  margin: 0;
 }
 
 button {
@@ -76,11 +69,15 @@ button:hover {
   bottom: 0;
   left: 0;
 
-  content: url("../images/background.png");
+  content: "";
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #D7CCC0;
   opacity: 0.1;
+}
+
+.light {
+  background-color: #F5F4F0;
 }
 
 .content {
@@ -134,7 +131,6 @@ button:hover {
 }
 
 #navigation {
-  width: 1440px;
   margin-top: -200px;
   background-color: #42413C;
 }
@@ -176,6 +172,7 @@ button:hover {
 
 .number {
   padding: 0 0 40px 0;
+  margin: 0;
 
   font-family: "Neucha", sans-serif;
   font-weight: 400;
@@ -188,9 +185,10 @@ button:hover {
   font-size: 34px;
 }
 
-.card > a > p {
+.card-text {
   width: 302px;
   color: #2A2626;
+  margin: 13px 0 0 0;
 }
 
 .pos {
@@ -231,7 +229,7 @@ button:hover {
   background-color: #B09A81;
 }
 
-.background-dark {
+.dark {
   background: #B09A81;
 }
 
@@ -249,11 +247,11 @@ button:hover {
 }
 
 .question {
-  margin: 55px;
+  margin: 55px 55px 54px 55px;
 }
 
 .form {
-  margin: 55px;
+  margin: 38px 31px;
 }
 
 .fs-18 {
@@ -303,6 +301,9 @@ button:hover {
 }
 
 footer {
-  width: 1440px;
   background-color: #FFFFFF;
+}
+
+.m-0 {
+  margin: 0;
 }
