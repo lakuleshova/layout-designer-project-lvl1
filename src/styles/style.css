@@ -123,6 +123,10 @@ button:hover {
   text-align: center;
 }
 
+.m-27 {
+  margin-top: 27px;
+}
+
 .video {
   position: relative;
   z-index: 2;
