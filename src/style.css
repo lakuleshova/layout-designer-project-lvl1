@@ -1,28 +1,30 @@
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   src: url(../fonts/Neucha-Regular.ttf);
 }
 
 body {
   margin: 0;
 
-  font-family: 'Open Sans', sans-serif;
+  width: 1440px;
+  
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
-}
 
-.h {
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2em;
+  overflow-x: hidden;
 }
 
 h1 {
+  position: relative;
+
+  z-index: 1;
   font-size: 72px;
 }
 
@@ -31,11 +33,272 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 52px;
+}
+
+h5 {
+  padding-left: 10px;
+  margin: 100px 0 6px 0;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p {
+  padding-top: 14px;
+  margin: 0;
+}
+
+button {
+  position: relative;
+  z-index: 3;
+  width: 148px;
+  height: 49px;
+
+  padding: 0;
+  border: 0;
+  margin-top: 40px;
+  margin-left: 570px;
+
+  color: #FFFFFF;
+  background-color: #FE8A02;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.background::before {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  content: "";
+  background-image: url("../images/background.png");
+  background-color: #D7CCC0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
 }
 
 .content {
-  width: 1100px;
+  width: 1110px;
 
-  margin: 100px auto;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.neucha {
+  margin: 0;
+
+  font-family: "Neucha", sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.primary {
+  color: #FE8A02;
+}
+
+.img-header {
+  position: absolute;
+  top: 55px;
+  left: 461px;
+
+  height: 525px;
+}
+
+.text {
+  margin-top: 185px;
+}
+
+.w-540 {
+  width: 540px;
+}
+
+.column {
+  justify-content: space-between;
+}
+
+.center {
+  text-align: center;
+}
+
+.video {
+  position: relative;
+  z-index: 2;
+  margin: 30px 95px 0 96px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+#navigation {
+  width: 1440px;
+  margin-top: -200px;
+  background-color: #42413C;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 1110px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 350px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #F5F4F0;
+}
+
+.card:first-child {
+  padding: 0;
+  background-color: #42413C;
+}
+
+.card:nth-child(n+4) {
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.number {
+  padding: 0 0 40px 0;
+
+  font-family: "Neucha", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1em;
+  color: #42413C;
+}
+
+.fs-34 {
+  font-size: 34px;
+}
+
+.card > a > p {
+  width: 302px;
+  color: #2A2626;
+}
+
+.pos {
+  position: relative;
+}
+
+.img {
+  position: relative;
+
+  background-color: #FFFFFF;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  margin-left: 30px;
+}
+
+.secondary {
+  padding-top: 0;
+  color: #908D8B;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.h5-dark {
+  color: #FFFFFF;
+  background-color: #B09A81;
+}
+
+.background-dark {
+  background: #B09A81;
+}
+
+.white50 {
+  color: #D7CCC0;
+}
+
+.h5-white {
+  color: #B09A81;
+  background-color: #FFFFFF;
+}
+
+.subscription {
+  background-color: #42413C;
+}
+
+.question {
+  margin: 55px;
+}
+
+.form {
+  margin: 55px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-12 {
+  padding: 0;
+  font-size: 12px;
+}
+
+.email {
+  width: 415px;
+  height: 50px;
+
+  padding: 15px;
+  border: 1px solid #E3E3E3;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 70px;
+  height: 50px;
+  background-color: #FE8A02;
+  border: none;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.icon::before {
+  position: relative;
+
+  top: 15px;
+  left: -50px;
+
+  content: url("../images/send.svg");
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.m-60 {
+  margin-top: 60px;
 }
