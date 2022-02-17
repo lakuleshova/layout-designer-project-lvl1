@@ -302,3 +302,8 @@ button:hover {
 .m-60 {
   margin-top: 60px;
 }
+
+footer {
+  width: 1440px;
+  background-color: #FFFFFF;
+}
