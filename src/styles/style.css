@@ -76,10 +76,10 @@ button:hover {
   bottom: 0;
   left: 0;
 
-  content: "";
-  background-image: url("../images/background.png");
+  content: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #D7CCC0;
   opacity: 0.1;
 }
 
