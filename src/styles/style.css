@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Open Sans";
-  src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url(../../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
   font-family: "Neucha";
-  src: url(fonts/Neucha-Regular.ttf);
+  src: url(../../fonts/Neucha-Regular.ttf);
 }
 
 body {
