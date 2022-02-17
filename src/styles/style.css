@@ -123,8 +123,10 @@ button:hover {
   text-align: center;
 }
 
-.m-27 {
-  margin-top: 27px;
+.p-vid {
+  margin-top: 28px;
+  margin-bottom: 0;
+
 }
 
 .video {
