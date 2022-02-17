@@ -50,13 +50,14 @@ button {
   width: 148px;
   height: 49px;
 
-  padding: 0;
-
   margin-top: 40px;
   margin-left: 570px;
-  border: 0;
+
+  padding: 0;
 
   color: #fff;
+
+  border: 0;
 
   background-color: #fe8a02;
 }
@@ -77,6 +78,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
+
   content: "";
 }
 
@@ -95,8 +97,8 @@ button:hover {
   margin: 0;
 
   font-weight: 400;
-  line-height: 1.2em;
   font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
 }
 
 .primary {
@@ -160,9 +162,12 @@ button:hover {
 
 .card {
   width: 350px;
-  padding: 24px;
+
   box-sizing: border-box;
+
   margin-bottom: 20px;
+  padding: 24px;
+
   background-color: #f5f4f0;
 }
 
@@ -189,10 +194,10 @@ button:hover {
   padding: 0 0 40px 0;
 
   font-weight: 400;
-  font-size: 64px;
   color: #42413c;
-  line-height: 1em;
+  font-size: 64px;
   font-family: "Neucha", sans-serif;
+  line-height: 1em;
 }
 
 .fs-34 {
@@ -288,9 +293,10 @@ button:hover {
   height: 50px;
 
   padding: 15px;
-  border: 1px solid #e3e3e3;
 
   box-sizing: border-box;
+
+  border: 1px solid #e3e3e3;
 }
 
 .submit {
