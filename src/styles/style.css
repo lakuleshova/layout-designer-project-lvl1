@@ -78,7 +78,6 @@ button:hover {
 
   content: "";
   background-image: url("../images/background.png");
-  background-color: #D7CCC0;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
